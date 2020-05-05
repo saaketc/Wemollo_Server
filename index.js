@@ -7,7 +7,7 @@ const searchBarRoute = require('./routes/searchBarRoute');
 const app = express();
 const port = process.env.PORT || 5000;
 // const dbConnect = process.env.MONGODB_URI || 'mongodb://localhost:27017/orangeteddy';
-const dbConnect = 'mongodb+srv://wemollo777:mongodb123@cluster0-hhi8y.mongodb.net/test?retryWrites=true&w=majority';
+const dbConnect = 'mongodb+srv://wemollo777:mongodb123@cluster0-hhi8y.mongodb.net/wemollo?retryWrites=true&w=majority';
 
 // Connection to database
 const startDb = async () => {
